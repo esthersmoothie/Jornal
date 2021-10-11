@@ -1,0 +1,91 @@
+body{
+    background-color: #723d46;
+    margin: 0;
+}
+
+footer, header{
+    font-size: 20px;
+    text-align: center;
+    background-color:#653239;
+    display: block;
+    flex-direction: inherit;
+    padding: 4px;
+    padding-top: 1px;
+}
+main, article{
+    background-color: #653239;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    border: solid #723d46 1px;
+}
+img{
+    float: left;
+    margin: 15px;
+    border: solid black 1px;
+}
+iframe{border: black solid 1px;}
+mark{
+    border-bottom: solid black 1px;
+    color: white;
+    background-color:#723d46;
+}
+#title{
+    padding: 5px;
+    font-size: 40px;
+    animation-name: title;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 100ms;
+}
+@keyframes title{
+    0% {transtale:50px ; color:black} 
+    20%{color:white;}
+    40%{transtale:50px ; color:black}
+    50%{color:white;}
+    60%{transtale:50px ; color:black}
+    80%{color:white;}
+    100%{transtale:50px ; color:black}
+}
+h3{
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color:floralwhite;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color:floralwhite;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.destaque{
+    font-size: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: white;
+}
+#noticia{
+    font-size: 30px;
+}

@@ -1,0 +1,86 @@
+body{
+    background-color:#723d46;
+    margin: 0;
+}
+
+footer, header{
+    font-size: 20px;
+    text-align: center;
+    background-color:#653239;
+    display: block;
+    flex-direction: inherit;
+    padding: 4px;
+    padding-top: 1px;
+}
+article, main{
+    background-color: #653239;
+    padding: 25px;
+    padding-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-top: 15px;
+}
+mark{
+    border-bottom: solid black 1px;
+    color: white;
+    background-color: #723d46;
+}
+img{
+    float: left;
+    margin: 10px;
+    border: solid black 1px;
+}
+#title{
+    padding: 5px;
+    font-size: 40px;
+    animation-name: title;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 100ms;
+}
+@keyframes title{
+    0% {transtale:50px ; color:black} 
+    20%{color:white;}
+    40%{transtale:50px ; color:black}
+    50%{color:white;}
+    60%{transtale:50px ; color:black}
+    80%{color:white;}
+    100%{transtale:50px ; color:black}
+}
+h2, h3{
+   text-align: center;
+}
+p{
+    font-size: 40px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color:floralwhite;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color:floralwhite;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+#noticia{
+    font-size: 20px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: white;
+}
